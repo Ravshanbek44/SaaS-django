@@ -17,6 +17,7 @@ def home_page_view(request, *args, **kwargs):
 
     my_title= "My page"
     html_ = "home.html"
+    ndjchwbdcbjwchxwkhwhkkqhweqdbw
 
     context = {
         "page_title": my_title,
