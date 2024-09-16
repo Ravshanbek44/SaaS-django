@@ -14,11 +14,9 @@ this_dir = pathlib.Path(__file__).resolve().parent
 def home_page_view(request, *args, **kwargs):
     qs = PageVisit.objects.all()
     page_qs = PageVisit.objects.filter(path= request.path)
-
+    html_ = "home.html"
     my_title= "My page"
     html_ = "home.html"
-    ndjchwbdcbjwchxwkhwhkkqhweqdbw
-
     context = {
         "page_title": my_title,
         "page_visit_count": page_qs.count(),
