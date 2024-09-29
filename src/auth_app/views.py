@@ -24,7 +24,7 @@ def login_view(request):
 
 def register_view(request):
     if request.method == "POST":
-        print(request.POST)
+        #print(request.POST)
         username = request.POST.get("username") or None
         email = request.POST.get("email") or None
         password = request.POST.get("password") or None
