@@ -45,10 +45,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #my apps
-    'auth_app',
-    'commando',
-    'visits',
-    'profiles',
+    "commando",
+    "customers",
+    "profiles",
+    "subscribtions",
+    "visits",
     #third party apps
     'slippers',
     "allauth_ui",
